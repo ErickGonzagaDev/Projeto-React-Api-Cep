@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.campoTexto {
+    display: flex;
+    flex-direction: column;
+    max-width: 420px;
+    text-align: center;
+    width: 100%;
+    row-gap: 20px;
+    padding: 24px;
+}
+
+.campoTexto input,
+button {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.campoTexto input {
+    background-color: #524a4a75;
+    border: none;
+    color: rgba(255, 255, 255, 0.472);
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+    caret-color: black;
+}
+.campoTexto button {
+    background-color: cornflowerblue;
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.campoTexto button:hover{
+    background-color: rgb(70, 103, 166);
+}
